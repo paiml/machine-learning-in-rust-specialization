@@ -1,0 +1,5 @@
+# This repository indexes courses; it holds no code, builds nothing and renders
+# nothing. Course code lives in each course's own repository.
+target/
+*.log
+.DS_Store

@@ -1,0 +1,10 @@
+# Generated README is built from this file. Edit it, not README.md.
+
+[course]
+slug           = "c05-agentic-patterns"
+number         = 5
+title          = "Agentic Patterns: Parallel Subagent ML with Rust"
+tagline        = "In development: the course repository holds its outline"
+description    = "The course repository holds the course outline. Lesson content and the public course page follow."
+specialization = "machine-learning-in-rust"
+repo           = "https://github.com/paiml/agentic-patterns-with-rust"

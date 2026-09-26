@@ -1,0 +1,27 @@
+# Generated READMEs are built from this file. Edit it, not README.md.
+#
+# Every course in this specialization lives in its own repository. The
+# course.toml under courses/ names that repository (`repo`) and, once the course
+# is live, its public course page (`url`). A course that has not launched has
+# no `url`: an absent link is never replaced by a guessed one.
+
+[specialization]
+slug        = "machine-learning-in-rust"
+title       = "Machine Learning in Rust"
+tagline     = "The five courses of the Machine Learning in Rust specialization, in order"
+description = "This repository indexes the courses. Each one's code lives in its own repository, linked below with its public course page once it is live."
+
+[[courses]]
+dir = "courses/c01-grounded-ai"
+
+[[courses]]
+dir = "courses/c02-data-prep-for-ml"
+
+[[courses]]
+dir = "courses/c03-agentic-rust-ml-from-zero"
+
+[[courses]]
+dir = "courses/c04-ml-packaging-and-agent-verification"
+
+[[courses]]
+dir = "courses/c05-agentic-patterns"

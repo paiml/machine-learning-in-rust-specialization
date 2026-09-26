@@ -1,0 +1,12 @@
+# Generated README is built from this file. Edit it, not README.md.
+#
+# No `url` yet: the public course page does not resolve. Add it when it does.
+
+[course]
+slug           = "c02-data-prep-for-ml"
+number         = 2
+title          = "Data Prep for ML"
+tagline        = "Data preparation with Rust and agentic tools"
+description    = "The worked examples are in the course repository. The public course page is linked here once it resolves."
+specialization = "machine-learning-in-rust"
+repo           = "https://github.com/paiml/data-prep-with-rust"

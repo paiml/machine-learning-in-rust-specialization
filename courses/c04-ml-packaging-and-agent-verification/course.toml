@@ -1,0 +1,9 @@
+# Generated README is built from this file. Edit it, not README.md.
+
+[course]
+slug           = "c04-ml-packaging-and-agent-verification"
+number         = 4
+title          = "ML Packaging and Agent Verification"
+tagline        = "In development"
+description    = "Its course repository and public course page are linked here once they exist."
+specialization = "machine-learning-in-rust"

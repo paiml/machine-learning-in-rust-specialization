@@ -1,0 +1,9 @@
+# Generated README is built from this file. Edit it, not README.md.
+
+[course]
+slug           = "c03-agentic-rust-ml-from-zero"
+number         = 3
+title          = "Agentic Rust ML from Zero"
+tagline        = "In development"
+description    = "Its course repository and public course page are linked here once they exist."
+specialization = "machine-learning-in-rust"

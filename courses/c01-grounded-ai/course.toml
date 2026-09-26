@@ -1,0 +1,11 @@
+# Generated README is built from this file. Edit it, not README.md.
+
+[course]
+slug           = "c01-grounded-ai"
+number         = 1
+title          = "Grounded AI"
+tagline        = "Knowledge Graphs and Validation for Agents"
+description    = "Live on Coursera. The worked examples are in the course repository."
+specialization = "machine-learning-in-rust"
+url            = "https://www.coursera.org/learn/grounded-ai"
+repo           = "https://github.com/paiml/ai-ontology"
