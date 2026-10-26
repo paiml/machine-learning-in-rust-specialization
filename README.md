@@ -4,6 +4,8 @@ The five courses of the Machine Learning in Rust specialization, in order
 
 This repository indexes the courses. Each one's code lives in its own repository, linked below with its public course page once it is live.
 
+[![gate](https://github.com/paiml/machine-learning-in-rust-specialization/actions/workflows/gate.yml/badge.svg)](https://github.com/paiml/machine-learning-in-rust-specialization/actions/workflows/gate.yml)
+
 ## Courses
 
 | # | course | what it covers | links |
@@ -13,6 +15,17 @@ This repository indexes the courses. Each one's code lives in its own repository
 | 3 | [Agentic Rust ML from Zero](courses/c03-agentic-rust-ml-from-zero) | In development |  |
 | 4 | [ML Packaging and Agent Verification](courses/c04-ml-packaging-and-agent-verification) | In development |  |
 | 5 | [Agentic Patterns: Parallel Subagent ML with Rust](courses/c05-agentic-patterns) | In development: the course repository holds its outline | [code](https://github.com/paiml/agentic-patterns-with-rust) |
+
+## Checking this repository
+
+### Linux / Ubuntu
+
+No packages or toolchains to install. The check uses only `git`, `bash`, `awk`, `sed`, `find` and coreutils, all present on a stock Ubuntu:
+
+```
+.github/scripts/check-readme-consistency.sh --self-test
+.github/scripts/check-readme-consistency.sh
+```
 
 ---
 
