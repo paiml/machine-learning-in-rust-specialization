@@ -1,0 +1,22 @@
+# Weekly run of the learner check on the newest hosted Ubuntu image, so a
+# change in the image shows up here before it reaches the pinned gate.
+name: canary
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  canary:
+    name: canary (ubuntu-latest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - name: Prove the checker can still fail
+        run: .github/scripts/check-readme-consistency.sh --self-test
+      - name: Cross-check every README against its TOML
+        run: .github/scripts/check-readme-consistency.sh
